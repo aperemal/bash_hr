@@ -1,0 +1,10 @@
+#!/bin/bash
+read onec
+
+if [ "$onec" == "Y" ] || [ "$onec" == "y"]; then
+    echo "YES"
+elif [ "$onec" == "N" ] || [ "$onec" == "n" ]; then
+    echo "NO"
+else   
+    echo "Invalid input"
+fi
